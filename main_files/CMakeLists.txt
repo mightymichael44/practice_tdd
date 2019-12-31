@@ -2,7 +2,7 @@ project(my_method)
 
 set(
     src_files
-    quicksort.cpp)
+    src/my_method.cpp)
 
 add_library(
     ${PROJECT_NAME}
@@ -11,4 +11,4 @@ add_library(
 target_include_directories(
     ${PROJECT_NAME}
     PUBLIC
-    ./)
+    include/)
