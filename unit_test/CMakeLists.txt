@@ -1,8 +1,8 @@
-project(test_my_method)
+project(test_game)
 
 set(
     src_files
-    test_my_method.cpp)
+    test_game.cpp)
 
 add_executable(
     ${PROJECT_NAME}
@@ -10,5 +10,5 @@ add_executable(
 
 target_link_libraries(
     ${PROJECT_NAME}
-    my_method
+    bowling_game
     gtest_main)

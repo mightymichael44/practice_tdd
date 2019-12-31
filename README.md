@@ -1,7 +1,7 @@
 # practice_tdd
 This repo is meant as a starting point to implement a function using tdd.
 Simply start writing your unit test and your wished function.
-* my_method should be replaced by your function, in all cmakelists, sourcefiles etc.
+* game should be replaced by your function, in all cmakelists, sourcefiles etc.
 
 The master is the starting point for practicing. 
 

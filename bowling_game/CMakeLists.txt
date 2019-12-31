@@ -1,8 +1,8 @@
-project(my_method)
+project(bowling_game)
 
 set(
     src_files
-    src/my_method.cpp)
+    src/game.cpp)
 
 add_library(
     ${PROJECT_NAME}
