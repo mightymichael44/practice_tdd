@@ -1,16 +1,19 @@
 pipeline {
     agent any
     stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
         stage('Deploy') {
             steps {
-                timeout(time: 3, unit: 'MINUTES') {
-                    retry(5) {
-                        mkdir cmake
-                        cd cmake
-                        cmake ..
-                        sh ./build/unit_test/test_game
-                    }
-                }
+                echo 'Deploying....'
             }
         }
     }
