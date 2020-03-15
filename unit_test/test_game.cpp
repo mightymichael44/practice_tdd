@@ -5,7 +5,6 @@
 
 GTEST_TEST(MyTestSuite, CheckForThis)
 {
-    auto a = game();
-    ASSERT_EQ(5, a.size());
-    std::cout << "I am done." << std::endl;
+    auto game = Game();
+    ASSERT_EQ(5, game.size());
 }
