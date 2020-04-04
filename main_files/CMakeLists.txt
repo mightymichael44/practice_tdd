@@ -1,8 +1,13 @@
-project(my_method)
+project(state_machine)
 
-set(
-    src_files
-    src/my_method.cpp)
+set(src_files
+    include/Action.h
+    include/State.h
+    include/StateMachine.h
+
+    src/Action.cpp
+    src/State.cpp
+    src/StateMachine.cpp)
 
 add_library(
     ${PROJECT_NAME}

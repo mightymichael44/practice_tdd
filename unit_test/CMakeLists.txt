@@ -1,8 +1,7 @@
-project(test_my_method)
+project(test_state_machine)
 
-set(
-    src_files
-    test_my_method.cpp)
+set(src_files
+    test_action.cpp)
 
 add_executable(
     ${PROJECT_NAME}
@@ -10,5 +9,5 @@ add_executable(
 
 target_link_libraries(
     ${PROJECT_NAME}
-    my_method
+    state_machine
     gtest_main)

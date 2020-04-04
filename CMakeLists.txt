@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 set(CMAKE_CXX_STANDARD 14)
-project(my_unit_tests)
+project(component)
 add_subdirectory(main_files)
 add_subdirectory(googletest)
 add_subdirectory(unit_test)
