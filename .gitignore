@@ -34,3 +34,6 @@
 # Ignore cmake folder
 cmake/
 build/
+
+.idea/
+cmake-build-debug/
